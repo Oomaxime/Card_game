@@ -1,4 +1,4 @@
-const CardEffect = ({ effect }) => {
+const Card_effect = ({ effect }) => {
   return (
     <div className="card-container">
       <ul className="card-list">
@@ -8,4 +8,4 @@ const CardEffect = ({ effect }) => {
   );
 };
 
-export default CardEffect;
+export default Card_effect;

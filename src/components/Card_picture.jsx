@@ -1,7 +1,7 @@
-const Card_picture = () => {
+const Card_picture = ({ picture }) => {
   return (
     <div className="card-container">
-      <img src="#" alt="card-picture" />
+      <img src="{picture}" alt="card-picture" />
     </div>
   );
 };
